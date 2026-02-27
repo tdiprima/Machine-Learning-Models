@@ -7,5 +7,3 @@ Prevents log explosions! ⚠️➡️✅
 `python anomaly_detector.py` ➡️ Anomalies flagged! 🔍📈  
 
 **Real automation win:** Spots issues hours early. 🏆
-
-![Demo Plot](anomaly_plot.png)
