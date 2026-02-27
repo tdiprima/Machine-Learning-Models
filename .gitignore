@@ -13,3 +13,4 @@ wheels/
 alert_anomalies.csv
 forecasts.csv
 forecast_plot.png
+anomaly_plot.png
