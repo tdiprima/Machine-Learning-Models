@@ -10,9 +10,9 @@ Simple deploy: python anomaly_detector.py >> alerts.log
 Deployment-focused: No complex splits, fast on 100k+ rows.
 """
 
-import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 from sklearn.ensemble import IsolationForest
 
 # Load data

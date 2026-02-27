@@ -8,10 +8,10 @@ Simple deployable script: retrain or predict in prod pipelines.
 Real problem: Automate sales pursuit from web scrapes.
 """
 
+import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
-import numpy as np
 
 # Load data (run generate_dataset.py first)
 print("Loading data...")

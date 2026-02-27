@@ -6,9 +6,9 @@ Real automation: Use yhat > threshold to trigger auto-scaling (e.g., add servers
 Simple/deployable: No complex tuning, quick stabilization as noted.
 Run after dataset_generator.py.
 """
+import matplotlib.pyplot as plt
 import pandas as pd
 from prophet import Prophet
-import matplotlib.pyplot as plt
 
 # Load data (generated separately)
 df = pd.read_csv('task_volumes.csv')

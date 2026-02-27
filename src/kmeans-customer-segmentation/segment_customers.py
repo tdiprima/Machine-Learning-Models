@@ -11,8 +11,8 @@ Simple/deployable: No complex deps, just sklearn/pandas. Run anywhere.
 Focus: Interpretable clusters for business rules > perfect accuracy.
 """
 
-import pandas as pd
 import numpy as np
+import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
