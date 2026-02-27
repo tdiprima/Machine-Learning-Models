@@ -1,4 +1,4 @@
-🚀 **Simple Revenue Forecaster**
+## 🚀 Simple Revenue Forecaster
 
 Automates monthly revenue prediction from ad spend & visits.  
 Replaces manual spreadsheets! 📈
@@ -6,7 +6,8 @@ Replaces manual spreadsheets! 📈
 **Quick Start**  
 `python revenue_predictor.py` → trains, tests, forecasts!  
 
-**Outputs**  
+**Outputs**
+
 - Model metrics (R², MSE)  
 - Coefficients  
 - Future prediction example  
