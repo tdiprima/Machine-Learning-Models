@@ -13,7 +13,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
-# Load data (run generate_dataset.py first)
+# Load data
 print("Loading data...")
 train_df = pd.read_csv('leads_train.csv')
 test_df = pd.read_csv('leads_test.csv')

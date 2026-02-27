@@ -6,7 +6,6 @@ Trains in seconds, infers instantly! ⚡
 ## Setup 🛠️
 ```bash
 pip install scikit-learn pandas numpy
-python generate_dataset.py  # Creates data/emails.csv (2000 emails)
 python email_classifier.py  # Train + benchmark
 ```
 

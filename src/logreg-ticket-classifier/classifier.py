@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 
-# Load dataset (run generate_dataset.py first)
+# Load dataset
 print("Loading support tickets dataset...")
 df = pd.read_csv('support_tickets.csv')
 print(f"Dataset: {len(df)} tickets, {df['label'].nunique()} categories")
