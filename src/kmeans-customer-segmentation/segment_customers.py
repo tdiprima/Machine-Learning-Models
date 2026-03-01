@@ -17,7 +17,8 @@ X = df[features].values
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-# Fit K-Means (k=5 as in article, elbow-ish sweet spot)
+# Fit K-Means (We're training a K-Means clustering model with k = 5 clusters,
+# because that seems like the best tradeoff point based on the elbow method.)
 print("Fitting K-Means (k=5)... 🔍")
 model = KMeans(n_clusters=5, random_state=42, n_init=10)
 clusters = model.fit_predict(X_scaled)
