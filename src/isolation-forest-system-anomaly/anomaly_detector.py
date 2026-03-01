@@ -10,7 +10,8 @@ from sklearn.ensemble import IsolationForest
 
 # Load data
 df = pd.read_csv('system_metrics.csv', parse_dates=['timestamp'])
-# Everything except the timestamp
+
+# Select relevant features for Isolation Forest model
 X = df[['cpu_usage', 'memory_usage', 'disk_read_mb', 'disk_write_mb', 'net_packets_sec']]
 
 # Train Isolation Forest (underused automation gem!)
