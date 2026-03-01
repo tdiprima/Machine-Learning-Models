@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from prophet import Prophet
 
-# Load data (generated separately)
+# Load data
 df = pd.read_csv('task_volumes.csv')
 df['ds'] = pd.to_datetime(df['ds'])
 print("Historical data loaded:", df.shape)

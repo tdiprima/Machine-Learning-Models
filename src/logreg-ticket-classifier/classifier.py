@@ -24,7 +24,7 @@ y = df['label']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 print(f"\nTrain: {len(X_train)}, Test: {len(X_test)}")
 
-# Build simple pipeline: TF-IDF + Logistic Regression (deploy-ready)
+# Build simple pipeline: TF-IDF + Logistic Regression
 print("\nTraining model...")
 vectorizer = TfidfVectorizer(max_features=5000, stop_words='english')
 model = LogisticRegression(max_iter=1000, random_state=42)  # Converges fast
